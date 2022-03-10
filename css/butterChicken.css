@@ -7,14 +7,34 @@
   font-family: "Open Sans", sans-serif;
 }
 header {
+  display: flex;
   border-bottom: 1px solid #ccc;
   margin-bottom: 1.5rem;
+  flex-direction: column;
+}
+.recipe-links ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.7rem;
+  padding: 0;
+  list-style: none;
+  font-size: 1.3rem;
+}
+.recipe-links a {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+}
+.recipe-links a:hover {
+  border-bottom: 1px solid #ccc;
 }
 .main-heading {
   font-size: 3.5rem;
+  margin: 0 0.5rem 0 0;
+  padding: 0;
 }
 .author {
-  margin-bottom: 1.5rem;
+  margin: 1.2rem 0;
 }
 
 body {
@@ -55,7 +75,7 @@ body {
 }
 .recipe-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .ingredients {
