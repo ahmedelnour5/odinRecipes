@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+}
+.main-heading {
+  font-size: 3.5rem;
+}
+.author {
+  margin-bottom: 1.5rem;
+}
+
+body {
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 0;
+  max-width: 1100px;
+  overflow-y: scroll;
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.section-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+.recipe-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.3rem;
+  border-bottom: 1px solid #ccc;
+}
+.img-wrapper {
+  width: 50%;
+}
+.recipe-intro img {
+  display: block;
+  width: 100%;
+  max-height: auto;
+  margin-bottom: 1.5rem;
+  padding-left: 0.5em;
+}
+.recipe-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ingredients {
+  width: 50%;
+}
+.ingredients ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ingredients li {
+  margin: 0.5rem;
+  font-size: 1.15rem;
+}
+.steps {
+  width: 50%;
+}
+.steps ol {
+  margin: 0;
+  padding: 0;
+}
+.steps li {
+  margin: 0.5rem;
+  font-size: 1.15rem;
+}
