@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1100px;
+  background-color: #ffffff;
+  font-size: 1.2rem;
+}
+.heading {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+}
+.main-heading {
+  margin: 0.5rem 0;
+  padding: 0;
+  font-size: 3.5rem;
+}
+.author {
+  margin: 1.2rem 0;
+}
+
+.heading ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0.8rem 0;
+  padding: 0;
+}
+
+.heading li {
+  font-size: 1.2rem;
+}
+.heading li:hover {
+  border-bottom: 1px solid #ccc;
+}
+.heading .recipe-links a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.section-heading {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+.recipe-intro {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.description {
+  width: 50%;
+}
+.img-wrapper {
+  width: 50%;
+}
+
+.img-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.recipe-content {
+  display: flex;
+}
+
+.ingredients {
+  width: 50%;
+}
+
+.ingredients ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem;
+  font-size: 1.15rem;
+}
+
+.steps {
+  width: 50%;
+}
+
+.steps ol {
+  margin: 0.5rem;
+  padding: 0;
+  font-size: 1.15rem;
+}
