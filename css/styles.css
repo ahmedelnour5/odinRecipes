@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+  max-width: 1100px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+  margin-bottom: 0.5rem;
+}
+
+.card-header:hover > .card-image {
+  transform: scale(1.025);
+}
+.card-image {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  max-height: 300px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms transform ease-in-out;
+}
+
+.card-body {
+  margin-top: 0.9rem;
+}
+.recipe-description {
+  padding-left: 0.5em;
+}
+.card-footer {
+  margin-top: 0.9rem;
+}
+.card-footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.pasta {
+  margin-top: 1.5rem;
+}
+
+.masala {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 1em 1.5em;
+  background-color: #2e7c87;
+  font-family: "Roboto";
+  color: white;
+  font-size: 0.9em;
+}
+
+.btn:hover {
+  background: #89dfeb;
+}
